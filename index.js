@@ -1,13 +1,4 @@
-let todoList=[
-            {
-                item : 'buy milk',
-                dueDate : '8/6/2025'
-            },
-            {
-                item : 'go to college',
-                dueDate : '8/6/2025'
-            }
-        ];
+let todoList=[];
         displayItem();
         function addTodo(){
             let inputElement=document.querySelector('#todo-input');
